@@ -1,0 +1,40 @@
+# Nivel 2: Los Fuertes de Loreto y Guadalupe
+# El camino sale del volcan, se parte en DOS rutas y se vuelven a juntar antes del fuerte.
+# Cada linea CAMINO es una ruta completa: los enemigos se turnan (uno arriba, uno abajo...)
+# Es el nivel final: no tiene SIGUIENTE
+# LADRONES: al terminar cada oleada, El Tlacuache y La Comadreja (se turnan) se roban este % del bono
+# Oleada 5: llega el COLOSO de lava, que le lanza rocas a tus torres
+NOMBRE Los Fuertes
+NUMERO 2
+DINERO 450
+VIDAS 20
+LADRONES 50
+FONDO recursos/niveles/fuertes.png
+CRATER 86,152
+# Ruta de arriba
+CAMINO 80,364 340,364 340,140 638,140 638,205 932,205 932,365 1050,365
+# Ruta de abajo
+CAMINO 80,364 286,364 286,525 932,525 932,365 1050,365
+OLEADA CHISPA 18 0.45 GOLEM 2 2.0
+OLEADA GOLEM 5 1.6 CHISPA 20 0.35
+OLEADA CHISPA 30 0.25 GOLEM 6 1.4
+OLEADA GOLEM 10 1.1 CHISPA 26 0.25
+OLEADA CHISPA 24 0.28 GOLEM 8 1.2 COLOSO 1 2.0
+MAPA ################################
+MAPA ################################
+MAPA #####...#########...############
+MAPA ####.#.##########......#########
+MAPA #####.##########################
+MAPA ##########.....#########.#######
+MAPA ######.###...........###..######
+MAPA #####..###............##..######
+MAPA ##########............##########
+MAPA ##########............##########
+MAPA ####.####............###..######
+MAPA ####..###............###..######
+MAPA #####.##################..######
+MAPA #####.##################..######
+MAPA ######.......##..........#######
+MAPA ################################
+MAPA ################################
+MAPA ################################

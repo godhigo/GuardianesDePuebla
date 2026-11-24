@@ -1,0 +1,11 @@
+# Lo genera CMake al compilar (cada quien lo crea en su compu)
+build/
+
+# Puntajes guardados al jugar
+datos/
+
+# Archivos de editores y del sistema
+.vscode/
+.idea/
+*.swp
+.DS_Store

@@ -1,0 +1,39 @@
+# Nivel 1: Cholula
+# Cada linea empieza con una palabra que dice que dato es.
+# FONDO: imagen del escenario (1280 x 720)
+# CRATER: x,y del crater del volcan (de ahi sale el humo)
+# NUMERO: numero del nivel.  SIGUIENTE: archivo del nivel que sigue al ganar
+# CAMINO: puntos x,y por donde caminan los enemigos (de la salida a la ciudad).
+#         Puede haber varias lineas CAMINO: cada una es una ruta y los enemigos se turnan
+# OLEADA: grupos de TIPO CANTIDAD SEGUNDOS_ENTRE_CADA_UNO  (tipos: CHISPA, GOLEM, LLAMARADA, COLOSO)
+# La oleada 3 trae al jefe de fuego: la LLAMARADA, que le lanza bolas de fuego a tus torres
+# MAPA: 18 filas de 32 casillas de 40x40 px.  . = pasto libre (se puede construir)   # = ocupado
+NOMBRE Cholula
+NUMERO 1
+SIGUIENTE niveles/nivel2.txt
+DINERO 350
+VIDAS 20
+FONDO recursos/niveles/cholula.png
+CRATER 82,174
+CAMINO 0,365 220,365 220,140 640,140 640,520 1040,520
+OLEADA CHISPA 14 0.5 GOLEM 1 2.0
+OLEADA CHISPA 18 0.4 GOLEM 3 1.8
+OLEADA CHISPA 16 0.35 GOLEM 4 1.5 LLAMARADA 1 2.0
+MAPA ################################
+MAPA ##########.......###############
+MAPA ################..##############
+MAPA #################...############
+MAPA #################.......########
+MAPA #######........##........#######
+MAPA #######........##.........######
+MAPA #######........##.........######
+MAPA #######........##.......########
+MAPA ########.......##.......########
+MAPA ########.......###......########
+MAPA ##########.....###.....#########
+MAPA ##########.....#################
+MAPA ##############.#################
+MAPA ###############.##......########
+MAPA ################################
+MAPA ################################
+MAPA ################################
